@@ -1,0 +1,14 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  background-color: black;
+  width: 300px;
+}
+
+.cell {
+  aspect-ratio: 1;
+  background-color: white;
+}
